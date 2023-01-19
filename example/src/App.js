@@ -10,7 +10,6 @@ function App() {
     // State contenant les résultats des différents components enfants
     const [results, setResults] = useState([])
 
-
     // Hook prenant pour callback le state "numberOfComponentRequired". A chacune des modifications apportées à "numberOfComponentRequired",
     // ce hook sera activé et génèrera le state "results" adapté pour stocker toute la data des components enfants.
     useEffect(() => {
