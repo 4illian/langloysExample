@@ -4,6 +4,7 @@ const ExampleComponent = (props) => {
 
         // Ici props contient donc :
         // props.resultKey => key du tableau "results" nécessaire pour setter la bonne valeur
+        // props.functionSetResults => pour lancer la fonction du main depuis le component
 
         // ----
 
